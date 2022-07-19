@@ -6,6 +6,7 @@ import {
 import { Provider } from 'react-redux';
 import Header from './Components/Header/header';
 import store from './configureStore';
+import Rocket from './Components/Rockets/Rocket';
 
 function App() {
   return (
