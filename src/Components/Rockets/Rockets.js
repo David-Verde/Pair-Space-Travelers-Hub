@@ -5,7 +5,7 @@ import OneBook from './oneRocket';
 import './rockets.css';
 
 const Rockets = () => {
-  const rocketsArr = useSelector((state) => state.reducerRockets);
+  const rocketsArr = useSelector((state) => state.Rockets);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getRocketsFromAPI());

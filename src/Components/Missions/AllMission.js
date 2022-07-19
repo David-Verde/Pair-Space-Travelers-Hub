@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux/es/exports';
 import React, { useEffect } from 'react';
 import Mission from './Mission';
 import './Mission.css';
-import { displayMissions } from '../../Redux/Mission/Mission';
+import { displayMissions } from '../../redux/Mission/Mission';
 
 function AllMission() {
   const missions = useSelector((state) => state.missions);

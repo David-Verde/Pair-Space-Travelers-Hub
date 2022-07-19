@@ -11,8 +11,8 @@ function Header() {
         <h4>Title</h4>
       </div>
       <div className="links">
-        <NavLink className="link" to="/"> Missions</NavLink>
-        <NavLink className="link" to="/Rockets"> Rockets</NavLink>
+        <NavLink className="link" to="/Missions"> Missions</NavLink>
+        <NavLink className="link" to="/"> Rockets</NavLink>
         {' '}
         <NavLink className="link" to="/Profile"> Profile</NavLink>
       </div>
